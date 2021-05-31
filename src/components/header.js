@@ -13,6 +13,7 @@ function header() {
       </div>
       <div className="icon">
         <Arrow height={20} width={20} />
+        <Arrow height={20} width={20} />
       </div>
     </header>
   );
