@@ -1,0 +1,62 @@
+header {
+  display: grid;
+  place-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 70%;
+  height: 20rem;
+  padding: 10px;
+  margin-top: 8rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.content h1 {
+  font-size: 300%;
+  color: #89cff0;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content h3 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  margin-top: -5rem;
+  animation-name: icon;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes icon {
+  0% {
+    margin-top: -5rem;
+  }
+  25% {
+    margin-top: -7rem;
+  }
+  50% {
+    margin-top: -4rem;
+  }
+  75% {
+    margin-top: -6rem;
+  }
+  100% {
+    margin-top: -5rem;
+  }
+}
