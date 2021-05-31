@@ -60,3 +60,26 @@ header {
     margin-top: -5rem;
   }
 }
+
+.profilelinks {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  width: 40%;
+}
+
+.links path {
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+.links:hover path {
+  fill: #000;
+}
+
+@media (max-width: 768px) {
+  .profilelinks {
+    width: 100%;
+  }
+}
